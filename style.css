@@ -1,3 +1,46 @@
 body {
     background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, nav {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+form {
+    text-align: center;
+    line-height: 2em;
+}
+
+.menuoptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.flag {
+    width: 15em;
+    height: 12em;
+}
+
+.frontpage {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.menu, .findus, .reviews {
+    flex: 1;
+    padding: 1em;
+    margin: 1em;
+    background-color: gray;
+}
+
+.topbar {
+    background-color: gray;
 }
