@@ -1,5 +1,5 @@
 body {
-    background-color: blanchedalmond;
+    background-color: #E5E4E2;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -11,9 +11,18 @@ h1 {
     font-size: 3em;
 }
 
+h2 {
+    font-size: 2em;
+}
+
 form {
     text-align: center;
     line-height: 2em;
+}
+
+nav {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
 }
 
 .menuoptions {
@@ -28,6 +37,11 @@ form {
     height: 12em;
 }
 
+.flag:hover {
+    width: 17em;
+    height: 15em;
+}
+
 .frontpage {
     display: flex;
     justify-content: center;
@@ -38,11 +52,14 @@ form {
     flex: 1;
     padding: 1em;
     margin: 1em;
-    background-color: gray;
+    background-color: #C0C0C0;
 }
 
 .topbar {
-    background-color: gray;
+    background-color: #C0C0C0;
+    margin: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .menuitem {
@@ -58,12 +75,33 @@ form {
     font-size: .75em;
     text-align: center;
     font-style: italic;
+    color: red;
+}
+
+.review {
+    font-style: italic;
+    font-size: 1.25em;
+    line-height: 1em;
+    padding: 1em;
+}
+
+.findus {
+    text-align: center;
+    font-weight: 200;
+    padding: 1em;
+}
+
+.menu {
+    padding: 1em;
+    text-align: center;
 }
 
 #menu {
     text-align: center;
     display: flex;
     flex-flow: column wrap;
+    background-color: #CDCDCD;
+    margin: 1em;
 }
 
 #item1, #item3 {
