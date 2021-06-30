@@ -44,3 +44,34 @@ form {
 .topbar {
     background-color: gray;
 }
+
+.menuitem {
+    font-size: 2em;
+}
+
+.foodimg {
+    width: 25em;
+    height: 25em;
+}
+
+.sidenote {
+    font-size: .75em;
+    text-align: center;
+    font-style: italic;
+}
+
+#menu {
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#item1, #item3 {
+    align-self: flex-start;
+    margin-left: 10em;
+}
+
+#item2, #item4 {
+    align-self: flex-end;
+    margin-right: 10em;
+}
